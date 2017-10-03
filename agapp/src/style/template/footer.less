@@ -1,0 +1,38 @@
+@import "../variable.less";
+.footer{
+  .h(45);
+  border-top: 1px solid @lineColor;
+  .b(0);
+  .l(0);
+  .r(0);
+  background-color: #f6f6f6;
+  font-size: 0;
+  li{
+    .fs(16);
+    .lh(45);
+    width: 33%;
+    color: @footCl;
+    &.select{
+      background-color: @highBgColor;
+      color: @highColor;
+    }
+    .icon-posi{
+      width: 18px;
+      height: 17px;
+      background: url("../../images/icon2.png") no-repeat scroll -32px -20.5px;
+      background-size: 250px 250px;
+    }
+    .icon-search{
+      width: 18px;
+      height: 17px;
+      background: url("../../images/icon2.png") no-repeat scroll -14px -2.5px;
+      background-size: 250px 250px;
+    }
+    .icon-mine{
+      width: 18px;
+      height: 17px;
+      background: url("../../images/icon2.png") no-repeat scroll -52.5px -2px;
+      background-size: 250px 250px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<ul class="posiList">
+  <li ui-sref="position({id:item.id})" ng-repeat="item in list" class="item" >
+    <img ng-src="{{item.comImg}}" alt="" class="d-id logo f-l">
+    <div class="detail">
+      <span class="company d-b" ng-bind="item.company"></span>
+      <p class="des">
+        <span class="posi-des d-id f-l" ng-bind="item.reqDes+'['+item.city+']'"></span>
+          <span class="mon f-r" ng-bind="item.Money"></span></p>
+      <p class="time d-b" ng-bind="item.Time"></p>
+    </div>
+  </li>
+  <!-- <li>
+    <img src="../../images/2.png" alt="" class="d-id logo f-l">
+    <div class="detail">
+      <span class="company d-b">百度</span>
+      <p class="des">移动网络开发测试工程师<span class="money f-r">20k-40k</span></p>
+      <p class="time d-b">今天20:17</p>
+    </div>
+  </li><li>
+    <img src="../../images/3.png" alt="" class="d-id logo f-l">
+    <div class="detail">
+      <span class="company">快手</span>
+      <p class="des">数据分析师[北京]<span class="money f-r">20k-40k</span></p>
+      <p class="time d-b">今天19:59</p>
+    </div>
+  </li><li>
+    <img src="../../images/4.png" alt="" class="d-id logo f-l">
+    <div class="detail">
+      <span class="company">Blingame可口游戏工作室</span>
+      <p class="des">Unity开发工程师 [ 深圳 ]<span class="money f-r">7k-14k</span></p>
+      <span class="time d-b">今天 19:53</span>
+    </div>
+  </li><li>
+    <img src="../../images/5.jpg" alt="" class="d-id logo f-l">
+    <div class="detail">
+      <span class="company">51公积金</span>
+      <p class="des">数据分析（建模/评分卡/python） [ 杭州 ]<span class="money f-r">10k-20k</span></p>
+      <span class="time d-b">今天 19:48</span>
+
+    </div>
+  </li> -->
+</ul>
